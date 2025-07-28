@@ -1,0 +1,6 @@
+# Contenido de .dockerignore
+
+.git
+.venv
+__pycache__/
+# *.sh  <-- Comenta o elimina esta líneaexit

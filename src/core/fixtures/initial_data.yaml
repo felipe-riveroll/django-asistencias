@@ -1,0 +1,2221 @@
+- model: core.diasemana
+  pk: 1
+  fields:
+    nombre_dia: Lunes
+- model: core.diasemana
+  pk: 2
+  fields:
+    nombre_dia: Martes
+- model: core.diasemana
+  pk: 3
+  fields:
+    nombre_dia: Miércoles
+- model: core.diasemana
+  pk: 4
+  fields:
+    nombre_dia: Jueves
+- model: core.diasemana
+  pk: 5
+  fields:
+    nombre_dia: Viernes
+- model: core.diasemana
+  pk: 6
+  fields:
+    nombre_dia: Sábado
+- model: core.diasemana
+  pk: 7
+  fields:
+    nombre_dia: Domingo
+- model: core.sucursal
+  pk: 1
+  fields:
+    nombre_sucursal: 31pte
+- model: core.sucursal
+  pk: 2
+  fields:
+    nombre_sucursal: Nave
+- model: core.sucursal
+  pk: 3
+  fields:
+    nombre_sucursal: Villas
+- model: core.sucursal
+  pk: 4
+  fields:
+    nombre_sucursal: Rio Blanco
+- model: core.tipoturno
+  pk: 1
+  fields:
+    descripcion: L-V
+- model: core.tipoturno
+  pk: 2
+  fields:
+    descripcion: X,J,V
+- model: core.tipoturno
+  pk: 3
+  fields:
+    descripcion: L,X,V,M,J
+- model: core.tipoturno
+  pk: 4
+  fields:
+    descripcion: L,X,J,S,M,V
+- model: core.tipoturno
+  pk: 5
+  fields:
+    descripcion: L,M,J,X,V
+- model: core.tipoturno
+  pk: 6
+  fields:
+    descripcion: L,X,J,V,S,D
+- model: core.tipoturno
+  pk: 7
+  fields:
+    descripcion: J,V,S,D
+- model: core.tipoturno
+  pk: 8
+  fields:
+    descripcion: L,M,X,V,S,D
+- model: core.tipoturno
+  pk: 9
+  fields:
+    descripcion: L,V,X,J,S,D
+- model: core.tipoturno
+  pk: 10
+  fields:
+    descripcion: L,V,M
+- model: core.tipoturno
+  pk: 11
+  fields:
+    descripcion: D
+- model: core.tipoturno
+  pk: 12
+  fields:
+    descripcion: V,S,D
+- model: core.tipoturno
+  pk: 13
+  fields:
+    descripcion: M,X,J,S,D
+- model: core.tipoturno
+  pk: 14
+  fields:
+    descripcion: J,V,S
+- model: core.tipoturno
+  pk: 15
+  fields:
+    descripcion: M,X,J,D,V,S
+- model: core.tipoturno
+  pk: 16
+  fields:
+    descripcion: L,J,V
+- model: core.tipoturno
+  pk: 17
+  fields:
+    descripcion: L,V,M,X,J,S
+- model: core.tipoturno
+  pk: 18
+  fields:
+    descripcion: L-J
+- model: core.tipoturno
+  pk: 18
+  fields:
+    descripcion: V
+- model: core.tipoturno
+  pk: 20
+  fields:
+    descripcion: M,X
+- model: core.tipoturno
+  pk: 21
+  fields:
+    descripcion: J
+- model: core.tipoturno
+  pk: 22
+  fields:
+    descripcion: S
+- model: core.tipoturno
+  pk: 23
+  fields:
+    descripcion: M-V
+- model: core.tipoturno
+  pk: 24
+  fields:
+    descripcion: L,X,J
+- model: core.tipoturno
+  pk: 25
+  fields:
+    descripcion: M
+- model: core.tipoturno
+  pk: 26
+  fields:
+    descripcion: X
+- model: core.tipoturno
+  pk: 27
+  fields:
+    descripcion: L,J,X
+- model: core.tipoturno
+  pk: 28
+  fields:
+    descripcion: L,M,J
+- model: core.horario
+  pk: 1
+  fields:
+    hora_entrada: '08:00:00'
+    hora_salida: '17:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:00-17:00'
+- model: core.horario
+  pk: 2
+  fields:
+    hora_entrada: '08:10:00'
+    hora_salida: '16:10:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:10-16:10'
+- model: core.horario
+  pk: 3
+  fields:
+    hora_entrada: '08:10:00'
+    hora_salida: '13:10:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:10-13:10'
+- model: core.horario
+  pk: 4
+  fields:
+    hora_entrada: '09:00:00'
+    hora_salida: '17:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '09:00-17:00'
+- model: core.horario
+  pk: 5
+  fields:
+    hora_entrada: '09:00:00'
+    hora_salida: '14:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '09:00-14:00'
+- model: core.horario
+  pk: 6
+  fields:
+    hora_entrada: '13:00:00'
+    hora_salida: '16:45:00'
+    cruza_medianoche: false
+    descripcion_horario: '13:00-16:45'
+- model: core.horario
+  pk: 7
+  fields:
+    hora_entrada: '10:00:00'
+    hora_salida: '17:30:00'
+    cruza_medianoche: false
+    descripcion_horario: '10:00-17:30'
+- model: core.horario
+  pk: 8
+  fields:
+    hora_entrada: '08:30:00'
+    hora_salida: '17:30:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:30-17:30'
+- model: core.horario
+  pk: 9
+  fields:
+    hora_entrada: '20:00:00'
+    hora_salida: '08:00:00'
+    cruza_medianoche: true
+    descripcion_horario: '20:00-08:00'
+- model: core.horario
+  pk: 10
+  fields:
+    hora_entrada: '08:00:00'
+    hora_salida: '20:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:00-20:00'
+- model: core.horario
+  pk: 11
+  fields:
+    hora_entrada: '07:30:00'
+    hora_salida: '16:30:00'
+    cruza_medianoche: false
+    descripcion_horario: '07:30-16:30'
+- model: core.horario
+  pk: 12
+  fields:
+    hora_entrada: '09:00:00'
+    hora_salida: '13:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '09:00-13:00'
+- model: core.horario
+  pk: 13
+  fields:
+    hora_entrada: '18:00:00'
+    hora_salida: '02:00:00'
+    cruza_medianoche: true
+    descripcion_horario: '18:00-02:00'
+- model: core.horario
+  pk: 14
+  fields:
+    hora_entrada: '20:00:00'
+    hora_salida: '09:00:00'
+    cruza_medianoche: true
+    descripcion_horario: '20:00-09:00'
+- model: core.horario
+  pk: 15
+  fields:
+    hora_entrada: '09:00:00'
+    hora_salida: '15:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '09:00-15:00'
+- model: core.horario
+  pk: 16
+  fields:
+    hora_entrada: '12:00:00'
+    hora_salida: '21:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '12:00-21:00'
+- model: core.horario
+  pk: 17
+  fields:
+    hora_entrada: '09:00:00'
+    hora_salida: '18:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '09:00-18:00'
+- model: core.horario
+  pk: 18
+  fields:
+    hora_entrada: '07:00:00'
+    hora_salida: '16:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '07:00-16:00'
+- model: core.horario
+  pk: 19
+  fields:
+    hora_entrada: '11:00:00'
+    hora_salida: '20:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '11:00-20:00'
+- model: core.horario
+  pk: 20
+  fields:
+    hora_entrada: '14:00:00'
+    hora_salida: '05:00:00'
+    cruza_medianoche: true
+    descripcion_horario: '14:00-05:00'
+- model: core.horario
+  pk: 21
+  fields:
+    hora_entrada: '08:00:00'
+    hora_salida: '16:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:00-16:00'
+- model: core.horario
+  pk: 22
+  fields:
+    hora_entrada: '08:00:00'
+    hora_salida: '15:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '08:00-15:00'
+- model: core.horario
+  pk: 23
+  fields:
+    hora_entrada: '16:45:00'
+    hora_salida: '03:00:00'
+    cruza_medianoche: true
+    descripcion_horario: '16:45-03:00'
+- model: core.horario
+  pk: 24
+  fields:
+    hora_entrada: '10:00:00'
+    hora_salida: '17:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '10:00-17:00'
+- model: core.horario
+  pk: 25
+  fields:
+    hora_entrada: '16:10:00'
+    hora_salida: '08:00:00'
+    cruza_medianoche: true
+    descripcion_horario: '16:10-08:00'
+- model: core.horario
+  pk: 26
+  fields:
+    hora_entrada: '11:00:00'
+    hora_salida: '17:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '11:00-17:00'
+- model: core.empleado
+  pk: 1
+  fields:
+    apellido_materno: Reyes
+    apellido_paterno: Pérez
+    codigo_checador: 1643
+    codigo_frappe: 1
+    nombre: Beatriz
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 2
+  fields:
+    apellido_materno: Zamudio
+    apellido_paterno: García
+    codigo_checador: 166
+    codigo_frappe: 2
+    nombre: Rocío Eufracia
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 3
+  fields:
+    apellido_materno: null
+    apellido_paterno: Rojas
+    codigo_checador: 1649
+    codigo_frappe: 4
+    nombre: Antonio
+    tiene_horario_asignado: false
+- model: core.empleado
+  pk: 4
+  fields:
+    apellido_materno: Zamudio
+    apellido_paterno: Durán
+    codigo_checador: 2310
+    codigo_frappe: 5
+    nombre: Marlene
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 5
+  fields:
+    apellido_materno: Vergara
+    apellido_paterno: Miranda
+    codigo_checador: 2314
+    codigo_frappe: 6
+    nombre: Rebeca
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 6
+  fields:
+    apellido_materno: Buenrostro
+    apellido_paterno: Machorro
+    codigo_checador: 2404
+    codigo_frappe: 7
+    nombre: Ana Paola
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 7
+  fields:
+    apellido_materno: Becerra
+    apellido_paterno: López
+    codigo_checador: 2401
+    codigo_frappe: 8
+    nombre: Quetzalli
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 8
+  fields:
+    apellido_materno: Chavez
+    apellido_paterno: Avila
+    codigo_checador: 2411
+    codigo_frappe: 10
+    nombre: Jose Juan Guillermo
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 9
+  fields:
+    apellido_materno: Lara
+    apellido_paterno: Hernández
+    codigo_checador: 2423
+    codigo_frappe: 12
+    nombre: Esmeralda
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 10
+  fields:
+    apellido_materno: Pastrana
+    apellido_paterno: Villalva
+    codigo_checador: 2422
+    codigo_frappe: 13
+    nombre: José Omar
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 11
+  fields:
+    apellido_materno: Santamaria
+    apellido_paterno: Reyes
+    codigo_checador: 2421
+    codigo_frappe: 14
+    nombre: Ivana
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 12
+  fields:
+    apellido_materno: Santamaría
+    apellido_paterno: Castillo
+    codigo_checador: 2413
+    codigo_frappe: 16
+    nombre: Odalys
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 13
+  fields:
+    apellido_materno: Márquez
+    apellido_paterno: Cabrera
+    codigo_checador: 2501
+    codigo_frappe: 17
+    nombre: Rodrigo
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 14
+  fields:
+    apellido_materno: Sánchez
+    apellido_paterno: Irineo
+    codigo_checador: 2503
+    codigo_frappe: 18
+    nombre: Angel Francisco
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 15
+  fields:
+    apellido_materno: Moreno
+    apellido_paterno: Chimal
+    codigo_checador: 2513
+    codigo_frappe: 25
+    nombre: Karla Ivette
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 16
+  fields:
+    apellido_materno: Hernandez
+    apellido_paterno: Morales
+    codigo_checador: 2512
+    codigo_frappe: 26
+    nombre: Tanya Maribel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 17
+  fields:
+    apellido_materno: Melendez
+    apellido_paterno: Ortega
+    codigo_checador: 2514
+    codigo_frappe: 27
+    nombre: Erick Tadeo
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 18
+  fields:
+    apellido_materno: Castillo
+    apellido_paterno: Zarate
+    codigo_checador: 2511
+    codigo_frappe: 28
+    nombre: Daniela
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 19
+  fields:
+    apellido_materno: Leonardo
+    apellido_paterno: Solís
+    codigo_checador: 3005
+    codigo_frappe: 31
+    nombre: Miguel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 20
+  fields:
+    apellido_materno: Castillo
+    apellido_paterno: Reyes
+    codigo_checador: 3006
+    codigo_frappe: 32
+    nombre: Raúl
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 21
+  fields:
+    apellido_materno: Márquez
+    apellido_paterno: Molina
+    codigo_checador: 3007
+    codigo_frappe: 33
+    nombre: Mauricio
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 22
+  fields:
+    apellido_materno: Medina
+    apellido_paterno: Pérez
+    codigo_checador: 3008
+    codigo_frappe: 34
+    nombre: Liliana
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 23
+  fields:
+    apellido_materno: Hernández
+    apellido_paterno: Cholula
+    codigo_checador: 3001
+    codigo_frappe: 35
+    nombre: Janeth Arleth
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 24
+  fields:
+    apellido_materno: Hernández
+    apellido_paterno: Martínez
+    codigo_checador: 3004
+    codigo_frappe: 36
+    nombre: Julio Cesar
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 25
+  fields:
+    apellido_materno: Velazquez
+    apellido_paterno: Contreras
+    codigo_checador: 3003
+    codigo_frappe: 37
+    nombre: Román
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 26
+  fields:
+    apellido_materno: Alvarez
+    apellido_paterno: Garcia
+    codigo_checador: 3010
+    codigo_frappe: 38
+    nombre: Danae
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 27
+  fields:
+    apellido_materno: Aquino
+    apellido_paterno: Daza
+    codigo_checador: 3011
+    codigo_frappe: 39
+    nombre: Laura
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 28
+  fields:
+    apellido_materno: Valladares
+    apellido_paterno: Maldonado
+    codigo_checador: 3012
+    codigo_frappe: 40
+    nombre: Vanessa Araceli
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 29
+  fields:
+    apellido_materno: Escobedo
+    apellido_paterno: Cadena
+    codigo_checador: 3016
+    codigo_frappe: 41
+    nombre: Jonathan Pajiel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 30
+  fields:
+    apellido_materno: Mancillas
+    apellido_paterno: Hernandez
+    codigo_checador: 3013
+    codigo_frappe: 42
+    nombre: Azul Rebeca
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 31
+  fields:
+    apellido_materno: Solis
+    apellido_paterno: Orea
+    codigo_checador: 3014
+    codigo_frappe: 43
+    nombre: Ricardo
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 32
+  fields:
+    apellido_materno: Mendoza
+    apellido_paterno: Hernandez
+    codigo_checador: 3009
+    codigo_frappe: 45
+    nombre: Vianey Citlali
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 33
+  fields:
+    apellido_materno: López
+    apellido_paterno: Jiménez
+    codigo_checador: 1861
+    codigo_frappe: 46
+    nombre: Mónica Graciela
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 34
+  fields:
+    apellido_materno: Zavala
+    apellido_paterno: Bautista
+    codigo_checador: 2116
+    codigo_frappe: 47
+    nombre: Maria Brenda
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 35
+  fields:
+    apellido_materno: null
+    apellido_paterno: Ariziga
+    codigo_checador: 0001
+    codigo_frappe: 48
+    nombre: Juan Alonso
+    tiene_horario_asignado: false
+- model: core.empleado
+  pk: 36
+  fields:
+    apellido_materno: Rojas
+    apellido_paterno: López
+    codigo_checador: 4003
+    codigo_frappe: 49
+    nombre: Guadalupe
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 37
+  fields:
+    apellido_materno: Domínguez
+    apellido_paterno: Popoca
+    codigo_checador: 4015
+    codigo_frappe: 50
+    nombre: Christian Joel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 38
+  fields:
+    apellido_materno: García
+    apellido_paterno: Monfil
+    codigo_checador: 4006
+    codigo_frappe: 51
+    nombre: María Fabiola
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 39
+  fields:
+    apellido_materno: Gómez
+    apellido_paterno: Pérez
+    codigo_checador: 4012
+    codigo_frappe: 52
+    nombre: Ronel Alberico
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 40
+  fields:
+    apellido_materno: García
+    apellido_paterno: Rangel
+    codigo_checador: 4002
+    codigo_frappe: 53
+    nombre: David
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 41
+  fields:
+    apellido_materno: Jiménez
+    apellido_paterno: Cardoso
+    codigo_checador: 4011
+    codigo_frappe: 54
+    nombre: Claudia Itzel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 42
+  fields:
+    apellido_materno: Santos
+    apellido_paterno: Reyes
+    codigo_checador: 4021
+    codigo_frappe: 55
+    nombre: Mauricio
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 43
+  fields:
+    apellido_materno: Gallardo
+    apellido_paterno: De La Cruz
+    codigo_checador: 4014
+    codigo_frappe: 56
+    nombre: Norlendy
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 44
+  fields:
+    apellido_materno: Cid
+    apellido_paterno: Méndez
+    codigo_checador: 4008
+    codigo_frappe: 57
+    nombre: Marco Antonio
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 45
+  fields:
+    apellido_materno: Amado
+    apellido_paterno: Aguilar
+    codigo_checador: 4013
+    codigo_frappe: 59
+    nombre: Andrea Milay
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 46
+  fields:
+    apellido_materno: Romero
+    apellido_paterno: Juárez
+    codigo_checador: 4004
+    codigo_frappe: 60
+    nombre: José Eduardo
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 47
+  fields:
+    apellido_materno: Perez
+    apellido_paterno: Perez
+    codigo_checador: 4005
+    codigo_frappe: 61
+    nombre: Elvis Ernesto
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 48
+  fields:
+    apellido_materno: Alvarado
+    apellido_paterno: Méndez
+    codigo_checador: 4009
+    codigo_frappe: 62
+    nombre: Zuri Paola
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 49
+  fields:
+    apellido_materno: Castillo
+    apellido_paterno: Valencia
+    codigo_checador: 4010
+    codigo_frappe: 63
+    nombre: Ulises Gabriel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 50
+  fields:
+    apellido_materno: Martínez
+    apellido_paterno: Merino
+    codigo_checador: 4019
+    codigo_frappe: 64
+    nombre: Fatima
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 51
+  fields:
+    apellido_materno: Ramírez
+    apellido_paterno: Bautista
+    codigo_checador: 4017
+    codigo_frappe: 73
+    nombre: Diana Joselyne
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 52
+  fields:
+    apellido_materno: León
+    apellido_paterno: Hernández
+    codigo_checador: 4020
+    codigo_frappe: 74
+    nombre: Gerardo Uriel
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 53
+  fields:
+    apellido_materno: Hernández
+    apellido_paterno: Perdono
+    codigo_checador: 3002
+    codigo_frappe: 75
+    nombre: Marisol
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 54
+  fields:
+    apellido_materno: Ruiz
+    apellido_paterno: Cuapa
+    codigo_checador: 2515
+    codigo_frappe: 76
+    nombre: Maximiliano
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 55
+  fields:
+    apellido_materno: Martínez
+    apellido_paterno: Rivera
+    codigo_checador: 0002
+    codigo_frappe: 65
+    nombre: Marisol
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 56
+  fields:
+    apellido_materno: García
+    apellido_paterno: Cortes
+    codigo_checador: 5002
+    codigo_frappe: 66
+    nombre: José Carlos
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 57
+  fields:
+    apellido_materno: Cruz
+    apellido_paterno: Méndez
+    codigo_checador: 5003
+    codigo_frappe: 67
+    nombre: Ian Natanael
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 58
+  fields:
+    apellido_materno: Hernández
+    apellido_paterno: García
+    codigo_checador: 5001
+    codigo_frappe: 68
+    nombre: Miguel Ángel Nazario
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 59
+  fields:
+    apellido_materno: Serrano
+    apellido_paterno: Contreras
+    codigo_checador: 2516
+    codigo_frappe: 77
+    nombre: Amelia
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 60
+  fields:
+    apellido_materno: Vazquez
+    apellido_paterno: Torres
+    codigo_checador: 2517
+    codigo_frappe: 78
+    nombre: Lizbeth
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 61
+  fields:
+    apellido_materno: Muñoz
+    apellido_paterno: Mendoza
+    codigo_checador: 2518
+    codigo_frappe: 79
+    nombre: Juan Jesus
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 62
+  fields:
+    apellido_materno: Hernández
+    apellido_paterno: Morales
+    codigo_checador: 2522
+    codigo_frappe: 84
+    nombre: Stephany
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 63
+  fields:
+    apellido_materno: Tlaxcalteca
+    apellido_paterno: Coyotl
+    codigo_checador: 2523
+    codigo_frappe: 85
+    nombre: Brenda
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 64
+  fields:
+    apellido_materno: García
+    apellido_paterno: Rojas
+    codigo_checador: 2524
+    codigo_frappe: 86
+    nombre: Lorenzo
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 65
+  fields:
+    apellido_materno: Galicia
+    apellido_paterno: Pérez
+    codigo_checador: 4022
+    codigo_frappe: 87
+    nombre: Elizabeth
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 66
+  fields:
+    apellido_materno: Carrillo
+    apellido_paterno: Barbosa
+    codigo_checador: 2520
+    codigo_frappe: 82
+    nombre: Antonio Alejandro
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 67
+  fields:
+    apellido_materno: Sánchez
+    apellido_paterno: Fuentes
+    codigo_checador: 4016
+    codigo_frappe: 88
+    nombre: Carolina
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 68
+  fields:
+    apellido_materno: Ramírez
+    apellido_paterno: Rojas
+    codigo_checador: 4018
+    codigo_frappe: 89
+    nombre: Iván
+    tiene_horario_asignado: true
+- model: core.empleado
+  pk: 69
+  fields:
+    apellido_materno: Pineda
+    apellido_paterno: Hidalgo
+    codigo_checador: 3018
+    codigo_frappe: 91
+    nombre: Antonio
+    tiene_horario_asignado: true
+- model: core.asignacionhorario
+  pk: 1
+  fields:
+    empleado: 1
+    sucursal: 1
+    tipo_turno: 1
+    horario: 1
+    es_primera_quincena: null
+- model: core.asignacionhorario
+  pk: 2
+  fields:
+    empleado: 2
+    sucursal: 1
+    dia_especifico: 3
+    hora_entrada_especifica: '08:10:00'
+    hora_salida_especifica: '16:10:00'
+- model: core.asignacionhorario
+  pk: 3
+  fields:
+    empleado: 2
+    sucursal: 1
+    dia_especifico: 4
+    hora_entrada_especifica: '08:10:00'
+    hora_salida_especifica: '16:10:00'
+- model: core.asignacionhorario
+  pk: 4
+  fields:
+    empleado: 2
+    sucursal: 1
+    dia_especifico: 5
+    hora_entrada_especifica: '08:10:00'
+    hora_salida_especifica: '13:10:00'
+- model: core.asignacionhorario
+  pk: 5
+  fields:
+    empleado: 3
+    sucursal: 1
+    comentarios: 'NO HAY HORARIO ASIGNADO'
+- model: core.asignacionhorario
+  pk: 6
+  fields:
+    empleado: 4
+    sucursal: 1
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 7
+  fields:
+    empleado: 5
+    sucursal: 1
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 8
+  fields:
+    empleado: 6
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 9
+  fields:
+    empleado: 7
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 10
+  fields:
+    empleado: 8
+    sucursal: 1
+    dia_especifico: 3
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 11
+  fields:
+    empleado: 8
+    sucursal: 1
+    dia_especifico: 4
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 12
+  fields:
+    empleado: 8
+    sucursal: 1
+    dia_especifico: 5
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 13
+  fields:
+    empleado: 9
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 14
+  fields:
+    empleado: 10
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 15
+  fields:
+    empleado: 11
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 16
+  fields:
+    empleado: 12
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 17
+  fields:
+    empleado: 13
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 18
+  fields:
+    empleado: 14
+    sucursal: 1
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '14:00:00'
+- model: core.asignacionhorario
+  pk: 19
+  fields:
+    empleado: 14
+    sucursal: 1
+    dia_especifico: 3
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '14:00:00'
+- model: core.asignacionhorario
+  pk: 20
+  fields:
+    empleado: 14
+    sucursal: 1
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '14:00:00'
+- model: core.asignacionhorario
+  pk: 21
+  fields:
+    empleado: 14
+    sucursal: 1
+    dia_especifico: 2
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 22
+  fields:
+    empleado: 14
+    sucursal: 1
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 23
+  fields:
+    empleado: 15
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 24
+  fields:
+    empleado: 16
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 25
+  fields:
+    empleado: 17
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 26
+  fields:
+    empleado: 18
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 27
+  fields:
+    empleado: 19
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 28
+  fields:
+    empleado: 20
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 29
+  fields:
+    empleado: 21
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 30
+  fields:
+    empleado: 22
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 31
+  fields:
+    empleado: 23
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 32
+  fields:
+    empleado: 24
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 33
+  fields:
+    empleado: 25
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 34
+  fields:
+    empleado: 26
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 35
+  fields:
+    empleado: 27
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 36
+  fields:
+    empleado: 28
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 37
+  fields:
+    empleado: 29
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 38
+  fields:
+    empleado: 30
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 39
+  fields:
+    empleado: 31
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 40
+  fields:
+    empleado: 32
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 41
+  fields:
+    empleado: 33
+    sucursal: 1
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 42
+  fields:
+    empleado: 33
+    sucursal: 1
+    dia_especifico: 3
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 43
+  fields:
+    empleado: 33
+    sucursal: 1
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 44
+  fields:
+    empleado: 33
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 45
+  fields:
+    empleado: 33
+    sucursal: 1
+    dia_especifico: 2
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 46
+  fields:
+    empleado: 33
+    sucursal: 1
+    dia_especifico: 5
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '15:00:00'
+- model: core.asignacionhorario
+  pk: 47
+  fields:
+    empleado: 34
+    sucursal: 1
+    dia_especifico: 1
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 48
+  fields:
+    empleado: 34
+    sucursal: 1
+    dia_especifico: 2
+    hora_entrada_especifica: '13:00:00'
+    hora_salida_especifica: '16:45:00'
+- model: core.asignacionhorario
+  pk: 49
+  fields:
+    empleado: 34
+    sucursal: 1
+    dia_especifico: 4
+    hora_entrada_especifica: '13:00:00'
+    hora_salida_especifica: '16:45:00'
+- model: core.asignacionhorario
+  pk: 50
+  fields:
+    empleado: 34
+    sucursal: 1
+    dia_especifico: 3
+    hora_entrada_especifica: '10:00:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 51
+  fields:
+    empleado: 34
+    sucursal: 1
+    dia_especifico: 5
+    hora_entrada_especifica: '10:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 52
+  fields:
+    empleado: 35
+    sucursal: 3
+    comentarios: 'NO HAY HORARIO ASIGNADO'
+- model: core.asignacionhorario
+  pk: 53
+  fields:
+    empleado: 36
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+- model: core.asignacionhorario
+  pk: 54
+  fields:
+    empleado: 36
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+- model: core.asignacionhorario
+  pk: 55
+  fields:
+    empleado: 36
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+- model: core.asignacionhorario
+  pk: 56
+  fields:
+    empleado: 36
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+- model: core.asignacionhorario
+  pk: 57
+  fields:
+    empleado: 36
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+- model: core.asignacionhorario
+  pk: 58
+  fields:
+    empleado: 36
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+- model: core.asignacionhorario
+  pk: 59
+  fields:
+    empleado: 37
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 60
+  fields:
+    empleado: 37
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 61
+  fields:
+    empleado: 37
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 62
+  fields:
+    empleado: 37
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 63
+  fields:
+    empleado: 38
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '08:30:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 64
+  fields:
+    empleado: 38
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '08:30:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 65
+  fields:
+    empleado: 38
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '08:30:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 66
+  fields:
+    empleado: 38
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '08:30:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 67
+  fields:
+    empleado: 38
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '08:30:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 68
+  fields:
+    empleado: 38
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '08:30:00'
+    hora_salida_especifica: '17:30:00'
+- model: core.asignacionhorario
+  pk: 69
+  fields:
+    empleado: 39
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '08:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 70
+  fields:
+    empleado: 39
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '08:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 71
+  fields:
+    empleado: 39
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '08:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 72
+  fields:
+    empleado: 39
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '20:00:00'
+    hora_salida_especifica_cruza_medianoche: false
+- model: core.asignacionhorario
+  pk: 73
+  fields:
+    empleado: 39
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '20:00:00'
+    hora_salida_especifica_cruza_medianoche: false
+- model: core.asignacionhorario
+  pk: 74
+  fields:
+    empleado: 39
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '20:00:00'
+    hora_salida_especifica_cruza_medianoche: false
+- model: core.asignacionhorario
+  pk: 75
+  fields:
+    empleado: 40
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '11:00:00'
+    hora_salida_especifica: '20:00:00'
+- model: core.asignacionhorario
+  pk: 76
+  fields:
+    empleado: 40
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '11:00:00'
+    hora_salida_especifica: '20:00:00'
+- model: core.asignacionhorario
+  pk: 77
+  fields:
+    empleado: 40
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 78
+  fields:
+    empleado: 40
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 79
+  fields:
+    empleado: 40
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 80
+  fields:
+    empleado: 40
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+- model: core.asignacionhorario
+  pk: 81
+  fields:
+    empleado: 41
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '07:30:00'
+    hora_salida_especifica: '16:30:00'
+- model: core.asignacionhorario
+  pk: 82
+  fields:
+    empleado: 41
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '07:30:00'
+    hora_salida_especifica: '16:30:00'
+- model: core.asignacionhorario
+  pk: 83
+  fields:
+    empleado: 41
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 84
+  fields:
+    empleado: 42
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 85
+  fields:
+    empleado: 43
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 86
+  fields:
+    empleado: 43
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 87
+  fields:
+    empleado: 43
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 88
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 89
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 90
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 91
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 92
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 93
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 94
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 95
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 96
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 97
+  fields:
+    empleado: 44
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 98
+  fields:
+    empleado: 45
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '18:00:00'
+    hora_salida_especifica: '02:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 99
+  fields:
+    empleado: 45
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '18:00:00'
+    hora_salida_especifica: '02:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 100
+  fields:
+    empleado: 45
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '18:00:00'
+    hora_salida_especifica: '02:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 101
+  fields:
+    empleado: 46
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+- model: core.asignacionhorario
+  pk: 102
+  fields:
+    empleado: 46
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+- model: core.asignacionhorario
+  pk: 103
+  fields:
+    empleado: 46
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+- model: core.asignacionhorario
+  pk: 104
+  fields:
+    empleado: 46
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '11:00:00'
+    hora_salida_especifica: '20:00:00'
+- model: core.asignacionhorario
+  pk: 105
+  fields:
+    empleado: 46
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '11:00:00'
+    hora_salida_especifica: '20:00:00'
+- model: core.asignacionhorario
+  pk: 106
+  fields:
+    empleado: 47
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '20:00:00'
+- model: core.asignacionhorario
+  pk: 107
+  fields:
+    empleado: 47
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '08:00:00'
+    hora_salida_especifica: '20:00:00'
+- model: core.asignacionhorario
+  pk: 108
+  fields:
+    empleado: 47
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '08:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 109
+  fields:
+    empleado: 47
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '08:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 110
+  fields:
+    empleado: 47
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '09:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 111
+  fields:
+    empleado: 47
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '20:00:00'
+    hora_salida_especifica: '09:00:00'
+    hora_salida_especifica_cruza_medianoche: true
+- model: core.asignacionhorario
+  pk: 112
+  fields:
+    empleado: 48
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 113
+  fields:
+    empleado: 48
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 114
+  fields:
+    empleado: 48
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 115
+  fields:
+    empleado: 48
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 116
+  fields:
+    empleado: 48
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '15:00:00'
+- model: core.asignacionhorario
+  pk: 117
+  fields:
+    empleado: 49
+    sucursal: 3
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 118
+  fields:
+    empleado: 50
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 119
+  fields:
+    empleado: 50
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 120
+  fields:
+    empleado: 50
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 121
+  fields:
+    empleado: 51
+    sucursal: 3
+    dia_especifico: 5
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 122
+  fields:
+    empleado: 51
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 123
+  fields:
+    empleado: 51
+    sucursal: 3
+    dia_especifico: 7
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 124
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '18:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 125
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 126
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 127
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 128
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '07:00:00'
+    hora_salida_especifica: '16:00:00'
+    es_primera_quincena: true
+- model: core.asignacionhorario
+  pk: 129
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 130
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 2
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 131
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 3
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 132
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 4
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 133
+  fields:
+    empleado: 52
+    sucursal: 3
+    dia_especifico: 6
+    hora_entrada_especifica: '12:00:00'
+    hora_salida_especifica: '21:00:00'
+    es_primera_quincena: false
+- model: core.asignacionhorario
+  pk: 134
+  fields:
+    empleado: 53
+    sucursal: 2
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 135
+  fields:
+    empleado: 54
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 136
+  fields:
+    empleado: 55
+    sucursal: 4
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 137
+  fields:
+    empleado: 55
+    sucursal: 4
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 138
+  fields:
+    empleado: 55
+    sucursal: 4
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '13:00:00'
+- model: core.asignacionhorario
+  pk: 139
+  fields:
+    empleado: 56
+    sucursal: 4
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 140
+  fields:
+    empleado: 56
+    sucursal: 4
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '13:00:00'
+- model: core.asignacionhorario
+  pk: 141
+  fields:
+    empleado: 57
+    sucursal: 4
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 142
+  fields:
+    empleado: 57
+    sucursal: 4
+    dia_especifico: 4
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '13:00:00'
+- model: core.asignacionhorario
+  pk: 143
+  fields:
+    empleado: 58
+    sucursal: 4
+    dia_especifico: 1
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 144
+  fields:
+    empleado: 58
+    sucursal: 4
+    dia_especifico: 6
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '13:00:00'
+- model: core.asignacionhorario
+  pk: 145
+  fields:
+    empleado: 59
+    sucursal: 1
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 146
+  fields:
+    empleado: 60
+    sucursal: 1
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 147
+  fields:
+    empleado: 61
+    sucursal: 1
+    tipo_turno: 1
+    horario: 1
+- model: core.asignacionhorario
+  pk: 148
+  fields:
+    empleado: 62
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 149
+  fields:
+    empleado: 63
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 150
+  fields:
+    empleado: 64
+    sucursal: 1
+    tipo_turno: 1
+    horario: 26 
+- model: core.asignacionhorario
+  pk: 151
+  fields:
+    empleado: 65
+    sucursal: 3
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 152
+  fields:
+    empleado: 66
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+- model: core.asignacionhorario
+  pk: 153
+  fields:
+    empleado: 67
+    sucursal: 3
+    dia_especifico: 5 # Viernes
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 154
+  fields:
+    empleado: 67
+    sucursal: 3
+    dia_especifico: 6 # Sábado
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 155
+  fields:
+    empleado: 67
+    sucursal: 3
+    dia_especifico: 7 # Domingo
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 156
+  fields:
+    empleado: 68
+    sucursal: 3
+    dia_especifico: 5 # Viernes
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 157
+  fields:
+    empleado: 68
+    sucursal: 3
+    dia_especifico: 6 # Sábado
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 158
+  fields:
+    empleado: 68
+    sucursal: 3
+    dia_especifico: 7 # Domingo
+    hora_entrada_especifica: '09:00:00'
+    hora_salida_especifica: '17:00:00'
+- model: core.asignacionhorario
+  pk: 159
+  fields:
+    empleado: 69
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4

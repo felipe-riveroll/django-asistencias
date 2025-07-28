@@ -1,0 +1,4 @@
+django
+psycopg[binary]
+pyyaml
+gunicorn
