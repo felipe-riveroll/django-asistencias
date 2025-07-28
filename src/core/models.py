@@ -74,3 +74,32 @@ class AsignacionHorario(models.Model):
             models.Index(fields=['dia_especifico']),
         ]
         # Basado en :contentReference[oaicite:11]{index=11}
+class ResumenHorario(models.Model):
+    empleado_id       = models.IntegerField(primary_key=True)
+    nombre            = models.CharField(max_length=100)
+    apellido_paterno  = models.CharField(max_length=100)
+    nombre_sucursal   = models.CharField(max_length=100, null=True)
+    dia_especifico_id = models.IntegerField(null=True)
+    horario           = models.CharField(max_length=100, null=True)
+
+    class Meta:
+        db_table  = 'vista_resumen_horarios'
+        managed   = False
+        verbose_name        = 'Resumen de Horario'
+        verbose_name_plural = 'Resúmenes de Horarios'
+
+class TablaHorarios(models.Model):
+    codigo_frappe = models.SmallIntegerField()
+    nombre_completo = models.CharField(max_length=200)
+    nombre_sucursal = models.CharField(max_length=100)
+    Lunes = models.JSONField(null=True)
+    Martes = models.JSONField(null=True)
+    Miércoles = models.JSONField(null=True, db_column="Miércoles")
+    Jueves = models.JSONField(null=True)
+    Viernes = models.JSONField(null=True)
+    Sábado = models.JSONField(null=True)
+    Domingo = models.JSONField(null=True)
+
+    class Meta:
+        managed = False
+        db_table = None  # No es tabla ni vista real
