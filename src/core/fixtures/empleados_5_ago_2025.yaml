@@ -1,0 +1,200 @@
+- model: core.tipoturno
+  pk: 29
+  fields:
+    descripcion: M,J,V
+
+- model: core.horario
+  pk: 27
+  fields:
+    hora_entrada: '12:00:00'
+    hora_salida: '17:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '12:00-17:00'
+
+- model: core.horario
+  pk: 28
+  fields:
+    hora_entrada: '12:00:00'
+    hora_salida: '16:00:00'
+    cruza_medianoche: false
+    descripcion_horario: '12:00-16:00'
+
+- model: core.empleado
+  pk: 70
+  fields:
+    apellido_materno: Alvarez
+    apellido_paterno: Moreno
+    codigo_checador: 2525
+    codigo_frappe: 92
+    nombre: Jessica
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 71
+  fields:
+    apellido_materno: Flores
+    apellido_paterno: Lechuga
+    codigo_checador: 2526
+    codigo_frappe: 93
+    nombre: Evelyn Dolores
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 72
+  fields:
+    apellido_materno: del Valle
+    apellido_paterno: Barrera
+    codigo_checador: 2527
+    codigo_frappe: 94
+    nombre: Guillermo
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 73
+  fields:
+    apellido_materno: Toral
+    apellido_paterno: Antonio
+    codigo_checador: 3023
+    codigo_frappe: 95
+    nombre: Leonardo Regino
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 74
+  fields:
+    apellido_materno: Marin
+    apellido_paterno: Velazco
+    codigo_checador: 3021
+    codigo_frappe: 96
+    nombre: Karla Odalyz
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 75
+  fields:
+    apellido_materno: Nicolas
+    apellido_paterno: Robles
+    codigo_checador: 3020
+    codigo_frappe: 97
+    nombre: Nestor de Jesus
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 76
+  fields:
+    apellido_materno: Gomez
+    apellido_paterno: Coeto
+    codigo_checador: 3022
+    codigo_frappe: 98
+    nombre: Jose Rodolfo
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 77
+  fields:
+    apellido_materno: Ramirez
+    apellido_paterno: Portugal
+    codigo_checador: 2528
+    codigo_frappe: 99
+    nombre: Jair
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 78
+  fields:
+    apellido_materno: Díaz
+    apellido_paterno: Andrade
+    codigo_checador: 2529
+    codigo_frappe: 100
+    nombre: Abigail
+    tiene_horario_asignado: true
+
+- model: core.empleado
+  pk: 79
+  fields:
+    apellido_materno: Martínez
+    apellido_paterno: Pérez
+    codigo_checador: 2530
+    codigo_frappe: 101
+    nombre: Deborah
+    tiene_horario_asignado: true
+
+- model: core.asignacionhorario
+  pk: 160
+  fields:
+    empleado: 70
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 161
+  fields:
+    empleado: 71
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 162
+  fields:
+    empleado: 72
+    sucursal: 1
+    tipo_turno: 1
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 163
+  fields:
+    empleado: 73
+    sucursal: 2
+    tipo_turno: 1
+    horario: 26
+
+- model: core.asignacionhorario
+  pk: 164
+  fields:
+    empleado: 74
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 165
+  fields:
+    empleado: 75
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 166
+  fields:
+    empleado: 76
+    sucursal: 2
+    tipo_turno: 1
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 167
+  fields:
+    empleado: 77
+    sucursal: 2
+    tipo_turno: 1
+    horario: 27
+
+- model: core.asignacionhorario
+  pk: 168
+  fields:
+    empleado: 78
+    sucursal: 1
+    tipo_turno: 29
+    horario: 4
+
+- model: core.asignacionhorario
+  pk: 169
+  fields:
+    empleado: 79
+    sucursal: 1
+    tipo_turno: 1
+    horario: 28
